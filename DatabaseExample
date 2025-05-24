@@ -1,0 +1,21 @@
+--CREATE DATABASE IF NOT EXISTS clientes_db;
+--USE clientes_db;
+
+--CREATE TABLE IF NOT EXISTS clientes (
+ --   clave_cliente VARCHAR(50) PRIMARY KEY,
+  --  nombre VARCHAR(100),
+  --  correo VARCHAR(100),
+  --  telefono VARCHAR(20)
+--);
+
+-- Crea el usuario con contraseña
+-- CREATE USER 'rodri'@'localhost' IDENTIFIED BY '1025';
+
+-- Otorga todos los privilegios sobre la base 'clientes_db'
+-- GRANT ALL PRIVILEGES ON clientes_db.* TO 'rodri'@'localhost';
+
+-- Aplicar cambios de permisos
+--FLUSH PRIVILEGES;
+
+--SHOW GRANTS FOR 'rodri'@'localhost';
+--select * from clientes
